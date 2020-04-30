@@ -71,6 +71,10 @@ export const TableContainer = styled.section`
       font-weight: normal;
       color: #969cb3;
 
+      span {
+        margin-left: 16px;
+      }
+
       &.title {
         color: #363f5f;
       }
@@ -81,6 +85,12 @@ export const TableContainer = styled.section`
 
       &.outcome {
         color: #e83f5b;
+      }
+
+      &.category {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
       }
     }
 
